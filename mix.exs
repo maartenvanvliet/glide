@@ -5,7 +5,7 @@ defmodule Glide.MixProject do
     [
       app: :glide,
       version: "0.9.0",
-      elixir: "~> 1.12",
+      elixir: "~> 1.11",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       source_url: @url,
