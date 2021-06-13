@@ -1,6 +1,6 @@
 defmodule Glide.MixProject do
   use Mix.Project
-  @url "https://github.com/maartenvanvliet/glid"
+  @url "https://github.com/maartenvanvliet/glide"
   def project do
     [
       app: :glide,
