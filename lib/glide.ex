@@ -52,6 +52,10 @@ defmodule Glide do
     nil_()
   end
 
+  def gen(:member_of, args) do
+    StreamData.member_of(args)
+  end
+
   def gen(name, args) when is_list(args) do
     if function_exported?(__MODULE__, name, length(args)) do
       apply(__MODULE__, name, args)
